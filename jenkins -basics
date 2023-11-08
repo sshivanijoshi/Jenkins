@@ -1,0 +1,47 @@
+Source LinkedIn course 
+Name  Jenkins Essential Training
+https://www.linkedin.com/learning/jenkins-essential-training-17420152/use-variables-in-a-pipeline?autoSkip=true&resume=false&u=88586714
+
+
+
+Environment Variables
+
+Globally scoped variables:
+pipeline {
+agent any
+environment {
+MAX SIZE = 10
+MIN SIZE = 1
+}
+
+Locally scoped variables:
+pipeline {
+stages {
+stage ('Scale by 10×') {
+environment {
+MAX SIZE = 100
+MIN SIZE = 10
+}
+}
+}
+}
+
+Reference 2 ways
+1- echo env.MAX_SIZE  #env keyword with lowercase with dot and name of variable 
+2- echo MAX SIZE 
+
+String env variable = dollar sign
+
+echo "§env.MAX_SIZE"
+echo "§{env.MAX_SIZE}"
+echo "SMAX SIZE"
+echo "S{MAX SIZE}"
+
+
+
+
+
+
+
+
+
