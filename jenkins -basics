@@ -38,10 +38,134 @@ echo "SMAX SIZE"
 echo "S{MAX SIZE}"
 
 
+currentBuild Variables
+• Values refer to the currently running build.
+• Properties of the variable named currentBuild:
+
+• currentBuild.startTimeInMillis
+  currentBuild.duration
+• currentBuild.currentResult
 
 
+Sample pipeline 
+pipeline {
+agent any
+environment {      // global variable
+MAX_SIZE = 10
+MIN_SIZE = 1
+}
+stages {
+stage('Default Scale') {
+steps {
+echo "MAX_SIZE - S{env.MAX_SIZE)"      // local variable
+echo "MIN_SIZE - S{env. MIN_SIZE)"
+}
+}
+stage('Scale by 10x") {
+environment {
+MAX_SIZE = 100
+MIN_SIZE - 10
+}
+steps {
+echo "MAX_SIZE - S{env. MAX_SIZE)"
+]]
 
 
+Parameter Variables
+pipeline {
+   agent any
+   parameters {
+}
+}
 
 
+... reference = params keyword  
+1- params. PARAMETER_NAME
+2- "{params.PARAMETER_NAME}"
+
+
+-  Each parameter defination Must include a name, default value, and description.
+- Use all capital letters in the name for easy identification.
+
+Parameter types:
+• String
+• Text
+• Boolean
+• Choice
+• Password
+
+
+string =
+for single word values
+
+string (name: 'FATHER', 
+defaultValue: 'Vader',
+description: 'Enter your father's 
+name.")
+
+text = 
+pas long with multiple lines
+text (name: 'PHRASE',
+defaultValue: 'It was the best of times, it was the worst of times, ...',
+description: 'Enter your favorite phrase from a Charles Dickens book.')
+
+
+booleanParam
+= pass true or false values and represented as checkmark in J interface
+booleanParam (name: 'RUN_TESTS', 
+             defaultValue: false,
+             description: 'Toggle this value to run tests.')
+
+
+choice
+= present list of options to choose from
+- values are passed as a list with first value is used as a default value
+choice (name: 'AWS_REGION', 
+  choices: ['us-east-1',
+  'us-east-2',
+  'us-west-1',
+  'us-west-2'],
+description: 'Select a region for deployment.')
+
+password 
+= for sensitve values like passwords and API keys
+password (name: 'DATABASE_PASSWORD', 
+     defaultValue: 'DATABASE_ PASSWORD 
+     description: 'Enter the database password.')
+
+
+phle run mai parameter nhi ate error ata hai 2nd mai a jate hai
+Pipeline parameters aren't available immediately after being defined.
+• Jenkins applies parameters after the first run.
+• The first run may encounter errors, if default values are not available.
+
+
+****** while you build pipeline use build with parameters
+pipeline {
+  agent any
+  parameters {
+    string(name: 'FATHER',
+           defaultValue:'Vader',
+            description: 'Enter Your father's name')
+
+    text (name: 'PHRASE,
+          description: 'Enter your favoi ite phrase from a Charles Dickens Book' 
+          defaultValue: 'It was the bespf times, it was the worst of times, Init was the age
+    booleanParam(name: 'RUN_TESTS',
+       defaultValue: false,
+       description: 'Toggle this value to run tests.')
+  choice(name: 'AWS_REGION',
+         choices: ['us-east-1', , 'us-east-2', 'us-west-1', 'us-west-2'], 
+         description: 'Select the AWS region for deployment.")
+  password(name: 'DATABASE_PASSWORD
+        defaultValue: 'DATABASE_PASSWORD',
+        description: 'Enter the database password")
+}
+stages {
+ stage('Example') {
+   steps {
+echo "I am your father. My name is S{params. FATHER)" 
+echo "favorite phrase is S{params.PHRASES}"
+
+ 
 
