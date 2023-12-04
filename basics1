@@ -42,3 +42,6 @@ especially suited for working with code repositories. Github organization jobs a
 for files that Jenkins uses to configure jobs automatically. 
 In a similar fashion, the multibranch pipeline job can be used to configure jobs for different branches belonging to the same repo.
 
+console log
+to see the outbut of the build 
+
