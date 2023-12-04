@@ -1,0 +1,28 @@
+https://github.com/LinkedInLearning/learning-jenkins-3003221
+
+
+
+Build
+One run of a project
+A verb and a noun
+
+Build Step
+A task inside a project
+
+
+Build Trigger
+Criteria for starting a build
+Manual or automatic
+
+Plugins
+• A software package that extends Jenkins' core functionality
+
+System requirements
+
+Hardware Requirements
+256 MB RAM
+1 GB disk space
+Software Requirements
+Java 11
+Java Runtime Environment or
+Java Development Kit
