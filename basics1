@@ -28,6 +28,17 @@ Java Runtime Environment or
 Java Development Kit
 
 
-Container
-![Uploading Screenshot 2023-12-04 at 4.28.31 PM.png…]()
+types of jobs 
+freestyle project, pipeline,multi-configuration project,folder,github organization, multibranch pipeline
+The type of job that is most commonly used is the freestyle job. 
+As the name implies, the freestyle job lets you freely control the way Jenkins manages the tasks that you want to automate. 
+Pipeline jobs are useful for projects that are more complex than freestyle jobs. For example, pipelines can run build steps in parallel, 
+use logic to skip steps and even use different compute platforms for different steps. 
+The multi configuration project is useful when you might have 
+multiple jobs that do the same thing, but for different combinations of parameters. Instead of creating many jobs for each set of parameters, 
+you can use the multi-configuration project to create one job that applies the parameters for you. 
+The GitHub organization and multibranch pipeline job types are 
+especially suited for working with code repositories. Github organization jobs are configured to scan GitHub repositories 
+for files that Jenkins uses to configure jobs automatically. 
+In a similar fashion, the multibranch pipeline job can be used to configure jobs for different branches belonging to the same repo.
 
