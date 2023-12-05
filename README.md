@@ -52,6 +52,27 @@ create view
 select wt you want to see inside view
 <img width="1721" alt="Screenshot 2023-12-05 at 3 49 43 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/184be234-adb2-42d6-88a6-6df923206128">
 
+add a regular expression that all things which has build comes into this view
+<img width="1704" alt="Screenshot 2023-12-05 at 3 50 08 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/f14e0007-6345-4306-bfe9-919ce822f141">
+
+create a folder
+<img width="1707" alt="Screenshot 2023-12-05 at 3 51 55 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/93c48bcc-989b-4471-9be5-7583513441d7">
+
+selct folder
+
+<img width="1706" alt="Screenshot 2023-12-05 at 3 52 07 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/df36e4f4-7cf1-4f7d-83d3-f3c48d79656e">
+
+Cyclone folder name folder creates a seprate workspace
+<img width="1199" alt="Screenshot 2023-12-05 at 3 52 40 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/b89e4258-3cbd-42b6-ada2-aee2480d2618">
+
+Move items inside folder it is possible one by one only
+<img width="1199" alt="Screenshot 2023-12-05 at 3 52 40 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/df93a7a5-ba8e-4155-a86a-d69b8d0d1189">
+
+
+
+
+
+
 
 
 
