@@ -34,6 +34,30 @@ CRON JOB SIMILAR
 
 <img width="1682" alt="Screenshot 2023-12-05 at 3 41 40 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/bc65b51b-fc28-4520-bf19-427f4adcf1b2">
 
+schedule
+<img width="1635" alt="Screenshot 2023-12-05 at 3 44 37 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/00976b7a-3cdc-4fd3-8672-9f14e72ec9c2">
+
+folders
+<img width="1593" alt="Screenshot 2023-12-05 at 3 48 22 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/fcd5fe37-afb2-4709-8211-1451c7678c77">
+
+scheduler alias
+<img width="1452" alt="Screenshot 2023-12-05 at 3 43 42 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/f378dd71-84be-459a-9961-7f58bca12c12">
+
+views
+<img width="1606" alt="Screenshot 2023-12-05 at 3 46 26 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/03e67a20-5391-4fad-b965-de9049cb2e89">
+
+create view
+<img width="1726" alt="Screenshot 2023-12-05 at 3 49 11 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/59a0583d-1544-4df8-9188-c3e010d6b3ce">
+
+select wt you want to see inside view
+<img width="1721" alt="Screenshot 2023-12-05 at 3 49 43 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/184be234-adb2-42d6-88a6-6df923206128">
+
+
+
+
+
+
+
 
 
 
