@@ -23,8 +23,7 @@ for choice parameters, the first choice entered will be used as the default.
 <img width="550" alt="Screenshot 2023-12-05 at 3 34 38 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/d98726fc-a3a1-44f3-8768-dbbabe666826">
 
 
-<img width="550" alt="Screenshot 2023-12-05 at 3 34 38 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/e38d89df-b149-4c5f-ac10-c2d125c3984b">
-
+<img width="566" alt="Screenshot 2023-12-05 at 3 37 52 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/85c28310-c080-4737-84e9-e219b392b64e">
 
 
 
