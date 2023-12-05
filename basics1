@@ -34,8 +34,8 @@ The type of job that is most commonly used is the freestyle job.
 As the name implies, the freestyle job lets you freely control the way Jenkins manages the tasks that you want to automate. 
 Pipeline jobs are useful for projects that are more complex than freestyle jobs. For example, pipelines can run build steps in parallel, 
 use logic to skip steps and even use different compute platforms for different steps. 
-The multi configuration project is useful when you might have 
-multiple jobs that do the same thing, but for different combinations of parameters. Instead of creating many jobs for each set of parameters, 
+The multi-configuration project is useful when you might have 
+multiple jobs that do the same thing but for different combinations of parameters. Instead of creating many jobs for each set of parameters, 
 you can use the multi-configuration project to create one job that applies the parameters for you. 
 The GitHub organization and multibranch pipeline job types are 
 especially suited for working with code repositories. Github organization jobs are configured to scan GitHub repositories 
@@ -43,5 +43,32 @@ for files that Jenkins uses to configure jobs automatically.
 In a similar fashion, the multibranch pipeline job can be used to configure jobs for different branches belonging to the same repo.
 
 console log
-to see the outbut of the build 
+to see the output of the build 
 
+
+ARTIFACTS
+Most Jenkins jobs will generate some sort of product at the end of each build. It could be a compiled executable, like an exe. An archive, like a jar file, 
+or it might even be a report in the text file. These products are referred to as artifacts. 
+
+folders
+folders provide a namespace that is separate from other folders in Jenkins. So with this new folder, any jobs, views, or other folders we create here are isolated 
+and can even have the same name as items in other folders. 
+
+By default views only have access to the jobs that exist at that level where they're configured. And since we moved the jobs into their own folders, they're no longer 
+accessible to this view, but we can change that. Let's click Edit View, and then select this option to Recurse in sub folders, and we'll click OK. Back on the view, 
+things are looking pretty familiar.The Build jobs are there, but now we can also see that each job is located in a folder
+
+So the view goes away and we no longer have access to it, but the jobs that were visible
+Deleting folders is a different story. When you delete a folder, all the contents of a folder are deleted along with it. That means any jobs, views, and folders that a 
+folder contains also get removed.
+
+
+A pipeline is written into a text file called a Jenkinsfile. Because the Jenkinsfile is just text, it can be stored in a repo along with other code or configuration used 
+in a project. Pipelines can configure almost all aspects of a Jenkins job, and they also contain stages and steps. In a pipeline definition, stages represent the sections 
+of the pipeline. For example, a pipeline might have three stages, called build, test, and deploy. These stages describe and manage the flow of the code through the pipeline. 
+Steps are configured inside a stage. Each stage must have at least one step. Steps are the actions taken in each stage. 
+So in the build stage, for example, a pipeline might have two steps. One to check out the code and another to compile it.
+
+
+link 
+https://www.jenkins.io/
