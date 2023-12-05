@@ -66,7 +66,28 @@ Cyclone folder name folder creates a seprate workspace
 <img width="1199" alt="Screenshot 2023-12-05 at 3 52 40 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/b89e4258-3cbd-42b6-ada2-aee2480d2618">
 
 Move items inside folder it is possible one by one only
-<img width="1199" alt="Screenshot 2023-12-05 at 3 52 40 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/df93a7a5-ba8e-4155-a86a-d69b8d0d1189">
+<img width="1232" alt="Screenshot 2023-12-05 at 3 53 56 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/8b8b2ab1-23c9-4cab-ad33-c8893a29de2a">
+
+chosse folder name where you want to move default one is jenkins
+<img width="1240" alt="Screenshot 2023-12-05 at 3 54 08 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/2e37812d-06f7-4493-8147-c47bb462df23">
+
+now you see the item in folder 
+<img width="1142" alt="Screenshot 2023-12-05 at 3 54 31 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/67d27ffd-8c90-43c4-a8ad-ac20a24fd753">
+
+see arranged folders for different works
+<img width="1698" alt="Screenshot 2023-12-05 at 3 54 51 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/9f71022b-1e76-483b-80c0-88da1f231721">
+
+Pp
+<img width="1107" alt="Screenshot 2023-12-05 at 3 59 40 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/3555f297-a535-4b19-8855-97f30bc14bb3">
+
+stages
+<img width="1387" alt="Screenshot 2023-12-05 at 4 00 12 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/ef757b9a-7b33-443a-a278-9f5d39d9d2c2">
+
+Create pipeline as a code
+<img width="1673" alt="Screenshot 2023-12-05 at 4 01 04 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/2caa0939-3d22-4964-849e-20a0489ea636">
+
+add piepleine code
+<img width="1499" alt="Screenshot 2023-12-05 at 4 01 51 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/e297d461-689c-41a8-83c0-8f72c25e9b4f">
 
 
 
