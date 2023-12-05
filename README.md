@@ -29,6 +29,12 @@ for choice parameters, the first choice entered will be used as the default.
 
 <img width="566" alt="Screenshot 2023-12-05 at 3 37 52 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/85c28310-c080-4737-84e9-e219b392b64e">
 
+CRON JOB SIMILAR 
+
+
+<img width="1682" alt="Screenshot 2023-12-05 at 3 41 40 PM" src="https://github.com/sshivanijoshi/Jenkins/assets/38161428/bc65b51b-fc28-4520-bf19-427f4adcf1b2">
+
+
 
 
 
